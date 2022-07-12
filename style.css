@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navbar css*/
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 9vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(229, 140, 95);
+    font-size: 15px;
+    border-bottom: 3px solid rgb(31, 202, 229);
+}
+
+ .logo {
+    color: rgb(215, 210, 210);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ }
+ span {
+    color: rgb(31, 202, 229);
+ }
+
+ .nav-link {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;    
+ }
+
+ .nav-link li {
+    list-style: none;
+ }
+
+ .nav-link a {
+    color: beige;
+    text-decoration: none;
+    
+ }
+
+ .nav-link a:hover{
+   color: rgb(31, 202, 229);
+ }
+/*End Of Navbar css*/
+
+
+/* Banner css*/
+ .banner{
+   width: 100%;
+   height: 100vh;
+   background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/image1.jpg);
+   background-size: cover;
+ }
+
+ .content {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+  .cont-text {
+   text-align: center;
+ }
+
+ .cont-text h2{
+   font-size: 50px;
+   color: #fff;
+ }
+
+ .cont-text p{
+   color: white;
+   margin: 0 10%;
+ }
+
+ /* End Of Banner css*/
+
+
+ .search {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: indianred;
+   padding: 10px 20px;
+ }
+
+ form {
+   padding: 5px;
+ }
+
+ .search-area {
+   border: none;
+   padding: 5px;
+   font-size: 15px;
+ }
+
+ h4 {
+   color: whitesmoke;
+   padding-left: 50px;
+   font-weight: bold;
+ }
+
+ button {
+   cursor: pointer;
+   text-decoration: none;
+   background-color: #00203fff;
+   border: none;
+   padding: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   color: #fff;
+ }
+
+
+
+ /* container style */
+
+ .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+text-align: center;
+   padding: 70px 50px;
+   margin: 20px;
+ }
+
+ .container-area {
+   padding: 20px
+   ;
+ }
+
+ .container p, h3 {
+   padding-top: 20px;
+ }
+
+ 
+ /* footer css */
+ .footer{
+   font-size: 20px;
+   text-align: center;
+   color: whitesmoke;
+   background-color:indianred ;
+   padding: 20px;
+ }
