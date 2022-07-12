@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*Navbar css*/
 nav {
 
@@ -11,9 +12,9 @@ nav {
     align-items: center;
     min-height: 9vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(229, 140, 95);
+    background-color:indianred;
     font-size: 15px;
-    border-bottom: 3px solid rgb(31, 202, 229);
+    border-bottom: 3px solid rgb(93, 131, 201);
 }
 
  .logo {
@@ -22,7 +23,7 @@ nav {
     letter-spacing: 4px;
  }
  span {
-    color: rgb(31, 202, 229);
+    color: rgb(93, 131, 201);
  }
 
  .nav-link {
@@ -48,12 +49,12 @@ nav {
 
 
 /* Banner css*/
- .banner{
+.banner{
    width: 100%;
    height: 100vh;
    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/image1.jpg);
    background-size: cover;
- }
+ } 
 
  .content {
    height: 100%;
@@ -85,6 +86,7 @@ nav {
    align-items: center;
    background-color: indianred;
    padding: 10px 20px;
+   gap: 0;
  }
 
  form {
@@ -106,7 +108,7 @@ nav {
  button {
    cursor: pointer;
    text-decoration: none;
-   background-color: #00203fff;
+   background-color: rgb(93, 131, 201);
    border: none;
    padding: 5px;
    font-size: 15px;
@@ -136,12 +138,111 @@ text-align: center;
    padding-top: 20px;
  }
 
+
+ /* About css*/
+ .boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .box1 {
+  flex: 2;
+  padding: 10px;
+  margin: 20px;
+  top: 20px;
+ }
+
+ .box1 h2 {
+  margin-bottom: 5%;
+ }
+ .box1 p {
+padding-top: 0;
+ }
+
+ .box2 {
+  flex: 1;
+  background:  indianred;
+  padding: 10px;
+  padding-bottom: 10px; 
+  margin: 30px 0px 50px;
+  color: aliceblue;
+
+ }
+
+ .sub-box {
+  background:  indianred;
+  margin-top: 10px;
+  padding: 10px;
+  color: rgb(206, 215, 215);
+ }
+/* End of About css*/
+
+
+
+/* Services css*/
+.services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.subtext{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15%;
+}
+
+.textbox {
+  border: 1px solid rgb(222, 216, 216);
+  background: rgb(222, 217, 217);
+  margin: 1px;
+  padding: 20px;
+}
+
+.main-services h1 {
+  margin: 30px;
+  font-size: medium;
+}
+
+.textbox2{
+  background: indianred;
+  padding: 20px;
+  margin-left: 6%;
+  color: rgb(239, 233, 233);
+  margin-bottom: 40%;
+}
+
+.service-btn {
+background-color: coral;
+margin: 10px;
+margin-right: 70%;
+padding: 3px;
+border-radius: 2px;
+
+}
+
+.service-btn a {
+text-decoration: none;
+font-weight: bold;
+color: #fff;
+font-size: 15px;
+}
  
  /* footer css */
  .footer{
    font-size: 20px;
    text-align: center;
    color: whitesmoke;
-   background-color:indianred ;
+   background-color:rgb(93, 131, 201);
    padding: 20px;
  }
