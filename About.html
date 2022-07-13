@@ -23,6 +23,7 @@
             <a href="Services.html">SERVICES</a>
         </li>
     </ul>
+    <img src="images/mobile2.webp" alt="" class="menu-btn">
    </nav> 
     
 
@@ -33,20 +34,22 @@
                 <button type="submit">submit</button>
             </form>
         </div>
+        <div class="main-box">
  <div class="boxes">
     <div class="box1">
         <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam cupiditate consequatur officiisillo magnam 
-            obcavoluptas dolor corporis quaerat, quam nulla. Dolorem porro quod eligendi harum quibusdam, tenetur temporibus, odit officia sunt, velit deserunt 
-            exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex.</p>
-            <div class="sub-box">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam
                 cupiditate consequatur officiisillo magnam obcavoluptas dolor corporis quaerat, quam nulla. Dolorem porro quod eligendi harum quibusdam,
-                 tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex.
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam
-                 cupiditate consequatur officiisillo magnam obcavoluptas dolor corporis quaerat, quam nulla. Dolorem porro quod eligendi harum quibusdam,
-                  tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex
+                tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex.
                 </p>
+            <div class="sub-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam
+                    cupiditate consequatur officiisillo magnam obcavoluptas dolor corporis quaerat, quam nulla. Dolorem porro quod eligendi harum quibusdam,
+                    tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam
+                    cupiditate consequatur officiisillo magnam obcavoluptas dolor corporis quaerat, quam nulla. Dolorem porro quod eligendi harum quibusdam,
+                    tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex
+                    </p>
                 </div>
 
     </div>
@@ -58,36 +61,20 @@
                   tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex.</p>
         </div>
  </div>
-<!-- 
-        <div class="container">
-            <div class="container-area">
-                <img src="images/download.png" width="100px" alt="">
-                <h3>HTML5 Markup</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tenetur tempori
-                    bus minima ipsam harum distinctio ipsum, deserunt accusamus soluta! 
-                    Quod sunt dolorem nemo ipsa vel.</p>
-            </div>
-
-            <div class="container-area">
-                <img src="images/css3.png" width="80px" alt="">
-                <h3>CSS3 Styling</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tenetur tempori
-                    bus minima ipsam harum distinctio ipsum, deserunt accusamus soluta! 
-                    Quod sunt dolorem nemo ipsa vel.</p>
-            </div>
-
-            <div class="container-area">
-                <img src="images/images4.png" width="100px" alt="">
-                <h3>Graphic Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tenetur tempori
-                    bus minima ipsam harum distinctio ipsum, deserunt accusamus soluta! 
-                    Quod sunt dolorem nemo ipsa vel.</p>
-            </div>
-        </div> -->
+ </div>
 
         <!--Footer-->
         <div class="footer">
             <p>Learn To Code, CopyRight&copy;2022</p>
         </div>
+
+        <script>
+            const menuBtn = document.querySelector(".menu-btn");
+            const navLinks = document.querySelector(".nav-link");
+                    
+            menuBtn.addEventListener('click' ,()=>{
+                navLinks.classList.toggle('menu-btn');
+            })
+                </script>
 </body>
 </html>

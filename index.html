@@ -14,7 +14,7 @@
     </div>
     <ul class="nav-link">
         <li>
-            <a href="About.html">HOME</a>
+            <a class="active" href="About.html">HOME</a>
         </li>
         <li>
             <a href="About.html">ABOUT</a>
@@ -23,6 +23,7 @@
             <a href="Services.html">SERVICES</a>
         </li>
     </ul>
+    <img src="images/mobile2.webp" alt="" class="menu-btn">
    </nav>
     <div class="banner">
     <div class="content">
@@ -71,5 +72,14 @@
         <div class="footer">
             <p>Learn To Code, CopyRight&copy;2022</p>
         </div>
+
+        <script>
+    const menuBtn = document.querySelector(".menu-btn");
+    const navLinks = document.querySelector(".nav-link");
+            
+    menuBtn.addEventListener('click' ,()=>{
+        navLinks.classList.toggle('menu-btn');
+    })
+        </script>
 </body>
 </html>
