@@ -127,6 +127,9 @@ nav {
    color: #fff;
  }
 
+ .active {
+  color: darkcyan;
+ }
 
 
  /* container style */
@@ -149,116 +152,76 @@ text-align: center;
    padding-top: 20px;
  }
 
-
  /* About css*/
- .boxes {
+
+ 
+ #sidebar{
+  float:right;
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 10%;
+}
+.box1 {
+  float: left;
+  width: 55%;
+  padding: 20px;
+}
+
+
+.boxes-color{
+  background-color: indianred;
+  width:  100%;
+  padding: 20px;
+
+}
+
+.quote input{
   width: 100%;
+  padding-right:10px;
+}
+
+
+.main-box{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  padding: 40px;
-  font-family: Arial, Helvetica, sans-serif;
- }
+  padding-bottom: 20px;
+}
 
- .box1 {
-  flex: 2;
-  padding: 10px;
-  margin: 20px;
-  top: 20px;
- }
+.title{
+  padding-bottom: 10px;
+  font-size: medium;
+}
 
- .box1 h2 {
-  margin-bottom: 5%;
- }
- .box1 p {
-padding-top: 0;
- }
 
- .box2 {
-  flex: 1;
-  background:  indianred;
-  padding: 10px;
-  padding-bottom: 10px; 
-  margin: 30px 0px 50px;
-  color: aliceblue;
-
- }
-
- .sub-box {
-  background:  indianred;
-  margin-top: 10px;
-  padding: 10px;
-  color: rgb(206, 215, 215);
- }
 /* End of About css*/
 
 
 
 /* Services css*/
-.services {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin: 30px;
+ul#services li{
+  list-style-type: none;
+  background-color: #e6e6e6;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin: 5px;
 }
 
-.subtext{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 15%;
+.button-1{
+  background-color: rgb(91, 91, 173);
+  margin: 5px;
 }
-
-.textbox {
-  border: 1px solid rgb(222, 216, 216);
-  background: rgb(222, 217, 217);
-  margin: 1px;
-  padding: 20px;
-}
-
-.main-services h1 {
-  margin: 30px;
-  font-size: medium;
-}
-
-.textbox2{
-  background: indianred;
-  padding: 20px;
-  margin-left: 6%;
-  color: rgb(239, 233, 233);
-  margin-bottom: 40%;
-}
-
-.service-btn {
-background-color: coral;
-margin: 10px;
-margin-right: 70%;
-padding: 3px;
-border-radius: 2px;
-
-}
-
-.service-btn a {
-text-decoration: none;
-font-weight: bold;
-color: #fff;
-font-size: 15px;
-}
-
 
 
 
 
 
 /* responsiveness*/
-@media  only screen and (max-width: 850px){
-  .menu-btn{
-    display: block;
-  }
+@media(max-width: 768px){
+ 
+ /* #sidebar{
+ float: none;
+  text-align: center;
+  width: 100%;
+ } */
 nav {
   padding: 0;
 }
@@ -268,7 +231,7 @@ nav {
   top: 10px;
   left: 30px;
 }
-
+/* 
 .nav-link {
   flex-direction: column;
    width: 100%;
@@ -277,8 +240,40 @@ nav {
   background-color: darkcyan;
  margin-top: -900px;
   transition: all 0.5s ease;
+} */
+
+#sidebar .boxes-color,
+#boxes .box1,
+form .quote,
+#sidebar{
+  float: none;
+  align-items: center;
+  width: 100%;
 }
 
+#sidebar .boxes-color{
+  
+  margin: 15px;
+  text-align: center;
+}
+/* #sidebar .box1,
+#sidebar{
+float:none; 
+margin: 5px 0px;
+width: 90%;
+
+padding: 10px;
+text-align: center;
+ 
+} */
+/*  */
+.nav-link{
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+
+}
 .nav-link ul {
   width: 100%   ;
   flex-direction: column;
@@ -300,31 +295,43 @@ nav {
  .container {
   flex-direction: column;
  }
-.main-box
-.boxes {
-  flex-direction: column;
-}
 
-.main-box .sub-box{
+
+ /* .main-box .sub-box{
   margin-top: 20%;
-}
+}  */
 
-.main-box h2 {
+/* .main-box h2 {
+  text-align: center;
+} */
+
+.search{
+display: inline-block;
+width: 100%;
   text-align: center;
 }
 
- .main-services
- .services {
-  flex-direction: column;
- }
-
-
- .search {
+ .search1{
   flex-direction: column;
  }
  .search h4 {
   padding-right: 12%;
  }
+.search button,
+.search-area{
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.nav-link{
+  float: none;
+}
+
+#sidebar.boxes-color{
+  display: inline-block;
+  text-align: center;
+}
 }
 
 
@@ -339,7 +346,7 @@ nav {
  
  /* footer css */
  .footer{
-   font-size: 20px;
+    font-size: 20px;
    text-align: center;
    color: whitesmoke;
    background-color:rgb(93, 131, 201);
