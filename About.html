@@ -4,79 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Interface</title>
+    <title>User Interface|About</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <nav>
-    <div class="logo">
-        <h4><span>Learn</span> To Code</h4>
-    </div>
-    <ul class="nav-link">
-        <li>
-            <a href="index.html">HOME</a>
-        </li>
-        <li>
-            <a href="About.html">ABOUT</a>
-        </li>
-        <li>
-            <a href="Services.html">SERVICES</a>
-        </li>
-    </ul>
-    <img src="images/mobile2.webp" alt="" class="menu-btn">
-   </nav> 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Interface</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
     
+        <header>
+          <div class="container1">
+            <div class="branding">
+                <h1><span class="hightlight">Learn</span> To Code</h1>
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                </ul>
+            </nav>
+          </div>  
+        </header>
+    
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subcribe To Our NewsLetter</h1>
+                <form action="">
+                    <input type="Email" placeholder="Enter Email.....">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    
+        <section id="main">
+            <div class="container">
+            <article id="main-col">
+       <h1 class="page-title">About Us</h1>
+       <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium mollitia nulla sit esse voluptatem id, consequatur dolore doloremque alias unde? Quidem repellat debitis aspernatur aperiam, dolor nihil cum 
+        commodi provident vitae, maiores, neque eveniet harum recusandae et vel molestias sit nostrum autem officia enim aut quasi. Eveniet autem natus officia.
+    </p>
 
-    <div class="search">
-        <h4>Subscribe To Our NewsLetter</h4>
-            <form class="action">
-                <input class="search-area" type="text" placeholder="Enter Email...">
-                <button type="submit">submit</button>
-            </form>
-        </div>
+    <p class="dark">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium mollitia nulla sit esse voluptatem id, consequatur dolore doloremque alias unde? Quidem repellat debitis aspernatur aperiam, dolor nihil cum 
+        commodi provident vitae, maiores, neque eveniet harum recusandae et vel molestias sit nostrum autem officia enim aut quasi. Eveniet autem natus officia.
+    </p>
+            </article>
 
-
-
-        <div class="main-box">
-      <div id="boxes">
-    <div class="box1">
-        <h2 class="title">About Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam
-                cupiditate consequatur officiisillo magnam obcavoluptas dolor corporis quaerat, quam nulla. Dolorem porro quod eligendi harum quibusdam,
-                tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex.
-                </p>
-            <br>
-                <p class="boxes-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam
-                    cupiditate consequatur officiisillo magnam obcavoluptas dolor corporis quaerat, quam nulla. Dolorem porro quod eligendi harum quibusdam,
-                    tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam.
-                </p>
-
-    </div>
-
-        <div id="sidebar">
-            <div class="boxes-color">
-            <h2>What We Do</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam
-                 cupiditate consequatur officiisillo magnam obcavoluptas dolor corporis quaerat, quam nulla. Dolorem porro quod eligendi harum quibusdam,
-                  tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex.</p>
-               </div>
-             </div>
-          </div>
-           </div>
-
-        <!--Footer-->
-        <div class="footer">
-            <p>Learn To Code, CopyRight&copy;2022</p>
-</div>
-
-        <!-- <script>
-            const menuBtn = document.querySelector(".menu-btn");
-            const navLinks = document.querySelector(".nav-link");
-                    
-            menuBtn.addEventListener('click' ,()=>{
-                navLinks.classList.toggle('menu-btn');
-            })
-                </script> -->
+            <aside id="sidebar">
+                <div class="dark">
+                <h3>What We Do</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores exercitationem quo sint quibusdam. Tempora minus nobis exercitationem consectetur. Inventore perspiciatis tempora minima maxime quae, perferendis rem consectetur 
+                 </p>
+                </div>
+            </aside>
+            </div>
+        </section>
+    
+        <footer>
+            <p>Learn To Code CopyRight&copy,2022</p>
+        </footer>
 </body>
 </html>

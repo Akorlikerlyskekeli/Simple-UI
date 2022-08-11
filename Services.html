@@ -4,137 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Interface</title>
+    <title>User Interface|Services<title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <nav>
-    <div class="logo">
-        <h4><span>Learn</span> To Code</h4>
-    </div>
-    <ul class="nav-link">
-        <li>
-            <a href="index.html">HOME</a>
-        </li>
-        <li>
-            <a href="About.html">ABOUT</a>
-        </li>
-        <li>
-            <a href="Services.html">SERVICES</a>
-        </li>
-    </ul>
-    <img src="images/mobile2.webp" alt="" class="menu-btn">
-   </nav> 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Interface</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
     
+        <header>
+          <div class="container1">
+            <div class="branding">
+                <h1><span class="hightlight">Learn</span> To Code</h1>
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li  class="current"><a href="Services.html">Services</a></li>
+                </ul>
+            </nav>
+          </div>  
+        </header>
+    
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subcribe To Our NewsLetter</h1>
+                <form action="">
+                    <input type="Email" placeholder="Enter Email.....">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    
+        <section id="main">
+            <div class="container">
+            <article id="main-col">
+       <h1 class="page-title">Services</h1>
+      <ul id="services">
+        <li>
+            <h3>Website Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia facilis magni 
+                fugiat quidem ullam consequatur? Omnis vitae ducimus explicabo soluta, inventore totam sed itaque quis quidem adipisci, iure ipsa?
+            </p>
+            <p>Pricing: $250 per month</p>
+        </li>
 
-    <div class="search">
-        <h4>Subscribe To Our NewsLetter</h4>
-            <form class="action">
-                <input class="search-area" type="text" placeholder="Enter Email...">
-                <button type="submit">submit</button>
-            </form>
-        </div>
-
-
-
-        <div class="main-box">
- <div id="boxes">
-    <div class="box1">
-        <h2 class="title">  Services</h2>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam
-                cupiditate consequatur officiisillo magnam obcavoluptas dolor corporis quaerat, quam nulla. Dolorem porro quod eligendi harum quibusdam,
-                tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex.
+        
+            <li>
+                <h3>Website Maintenance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia facilis magni 
+                    fugiat quidem ullam consequatur? Omnis vitae ducimus explicabo soluta, inventore totam sed itaque quis quidem adipisci, iure ipsa?
                 </p>
-            <br>
-                <p class="boxes-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam
-                    cupiditate consequatur officiisillo magnam obcavoluptas dolor corporis quaerat, quam nulla. Dolorem porro quod eligendi harum quibusdam,
-                    tenetur temporibus, odit officia sunt, velit deserunt exercitationem doloribus nesciunt vero eveniet facilis quas quisquam fugiat ex.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel vero ab reprehenderit ratione aliquam.
-                </p> -->
-             <ul id="services">
-                <li>
-                    <h3>Website Design</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus id placeat, maiores quaerat sint eveniet optio blanditiis perferendis consequatur. Voluptatibus.</p>
-                    <p>Pricing: $100 - $300</p>
-                </li>
+                <p>Pricing: $450 per month</p>
+            </li>
 
+    
                 <li>
-                    <h3>Website Design</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus id placeat, maiores quaerat sint eveniet optio blanditiis perferendis consequatur. Voluptatibus.</p>
-                    <p>Pricing: $100 - $300</p>
+                    <h3>Website Hosting</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia facilis magni 
+                        fugiat quidem ullam consequatur? Omnis vitae ducimus explicabo soluta, inventore totam sed itaque quis quidem adipisci, iure ipsa?
+                    </p>
+                    <p>Pricing: $150 per month</p>
                 </li>
+      </ul>
+            </article>
 
-                <li>
-                    <h3>Website Design</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus id placeat, maiores quaerat sint eveniet optio blanditiis perferendis consequatur. Voluptatibus.</p>
-                    <p>Pricing: $100 - $300</p>
-                </li>
-             </ul>
-    </div>
-
-        <div id="sidebar">
-            <div class="boxes-color">
-            <h2>Get A Quote</h2>
-            <form class="quote">
+            <aside id="sidebar">
+                <div class="dark">
+                <h3>Get A Quote</h3>
+               <form class="quote">
                 <div>
                     <label>Name</label><br>
                     <input type="text" placeholder="Name">
                 </div>
-    
+
                 <div>
                     <label>Email</label><br>
                     <input type="text" placeholder="Email Address">
                 </div>
-    
+
                 <div>
                     <label>Message</label><br>
-                    <input type="text" placeholder="Message">
+                  <textarea  placeholder="Message"></textarea>
                 </div>
-                <button class="button-1" type="submit">Send</button>
-            </form>
-               </div>
-             </div>
-               </div>
-             </div>
-          </div>
-     </div>
 
-        <!--Footer-->
-        <div class="footer">
-            <p>Learn To Code, CopyRight&copy;2022</p>
-</div>
-
-        <!-- <script>
-            const menuBtn = document.querySelector(".menu-btn");
-            const navLinks = document.querySelector(".nav-link");
-                    
-            menuBtn.addEventListener('click' ,()=>{
-                navLinks.classList.toggle('menu-btn');
-            })
-                </script> -->
+                <button class="button_1" type="submit">Send</button>
+               </form>
+                </div>
+            </aside>
+            </div>
+        </section>
+    
+        <footer>
+            <p>Learn To Code CopyRight&copy,2022</p>
+        </footer>
 </body>
 </html>
-        
-    <!-- <div id="sidebar">
-        <div class="boxes-color">
-        <h2>What We Do</h2>
-        <form class="quote">
-            <div>
-                <label>Name</label><br>
-                <input type="text" placeholder="Name">
-            </div>
-
-            <div>
-                <label>Email</label><br>
-                <input type="text" placeholder="Email Address">
-            </div>
-
-            <div>
-                <label>Message</label><br>
-                <input type="text" placeholder="Message">
-            </div>
-            <button class="button-1" type="submit">Send</button>
-        </form>
-           </div>
-         </div> -->
-        
