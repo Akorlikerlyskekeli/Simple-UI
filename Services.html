@@ -39,8 +39,8 @@
             <div class="container">
                 <h1>Subcribe To Our NewsLetter</h1>
                 <form action="">
-                    <input type="Email" placeholder="Enter Email.....">
-                    <button type="submit" class="button_1">Subscribe</button>
+                    <input type="Email" name="email" id="Sub" placeholder="Enter Email.....">
+                    <button type="button" class="button_1" id="Mybtn">Subscribe</button>
                 </form>
             </div>
         </section>
@@ -84,26 +84,26 @@
                <form class="quote">
                 <div>
                     <label>Name</label><br>
-                    <input type="text" placeholder="Name">
+                    <input type="text" id="name" placeholder="Name">
                 </div>
 
                 <div>
                     <label>Email</label><br>
-                    <input type="text" placeholder="Email Address">
+                    <input type="text" id="email" placeholder="Email Address">
                 </div>
 
                 <div>
                     <label>Message</label><br>
-                  <textarea  placeholder="Message"></textarea>
+                  <textarea placeholder="Message" id="msg"></textarea>
                 </div>
 
-                <button class="button_1" type="submit">Send</button>
+                <button class="button_1" type="button" id="send" onclick="logInput()">Send</button>
                </form>
                 </div>
             </aside>
             </div>
         </section>
-    
+        <script src="main.js"></script>
         <footer>
             <p>Learn To Code CopyRight&copy,2022</p>
         </footer>
